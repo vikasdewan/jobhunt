@@ -21,7 +21,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
 const corsOptions = {
-  origin: "http://localhost:5173", // Frontend origin
+  origin: "https://jobhunt-1-zqs7.onrender.com/", // Frontend origin
   credentials: true, // Allow cookies with CORS
 };
 app.use(cors(corsOptions));
